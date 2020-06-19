@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Ubuntu', sans-serif;
+    background: #ffffff;
+    -webkit-font-smoothing: antialiased;
+}
+h2{
+    margin-left: 20px;
+}
+
+#home header{
+    width: 90%;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#home header img{
+    width: 100px;
+}
+#home header h1{
+    font-size: auto;
+    margin-left: 20px;
+}
+
+
