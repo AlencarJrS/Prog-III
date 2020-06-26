@@ -57,7 +57,7 @@ include ('mail.php');
                     if(date('w', strtotime($_POST['data'])) == 0)
                     {
                         echo "<script>
-                            alert('Domingo não pode!');
+                            alert('Atendimento de Segunda a Sexta');
                             history.back();
                         </script>";
                         
@@ -86,7 +86,7 @@ include ('mail.php');
                             
                             $subject = "Agendamento de horário - Barbearia Lâmina Afiada";
                             
-                            $message = "Agradecemos a preferência, seu horário de atendimento as {$time} está confirmado, qualquer dúvida entre em contato 41 4002-8922 ou através do email: lmaafiada@gmail.com";
+                            $message = "Agradecemos a preferência, seu horário de atendimento as {$time_fim} está confirmado, qualquer dúvida entre em contato 41 4002-8922 ou através do email: lmaafiada@gmail.com";
                             
                             $headers = "De: ". $from;
                             echo "teste";
