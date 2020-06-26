@@ -6,6 +6,9 @@
 include ('config.php');
 include ('mail.php');
 
+
+$horaemail = $_POST['time'];
+
         if (@$_REQUEST['botao'] == "Gravar") 
         {   
             
@@ -40,8 +43,6 @@ include ('mail.php');
                                 </script>";
                    
                 }
-
-               
                   
                 $consult = "SELECT COUNT(*) as total FROM info_cliente WHERE data ='".$_POST['data']."' AND time='".$_POST['time']."' AND time_fim='".$time."'";
 
