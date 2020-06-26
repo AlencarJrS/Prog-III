@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 
 $from = "alencar@alencarjunior.tech";
 
-$to = $_POST['alencarjunior75@gmail.com'];
+$to = $_POST['email'];
 
 $subject = "Verificando o correio do PHP";
 
