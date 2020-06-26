@@ -84,9 +84,9 @@ include ('mail.php');
                             
                             $to = $_POST['email'];
                             
-                            $subject = "Verificando o correio do PHP";
+                            $subject = "Agendamento de horário - Barbearia Lâmina Afiada";
                             
-                            $message = "O correio do PHP funciona bem";
+                            $message = "Agradecemos a preferência, seu horário de atendimento as {$time} está confirmado, qualquer dúvida entre em contato 41 4002-8922 ou através do email: lmaafiada@gmail.com";
                             
                             $headers = "De: ". $from;
                             echo "teste";
